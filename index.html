@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Schedule</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+            position: relative;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #555;
+        }
+
+        th {
+            background-color: #555;
+        }
+
+        tr:hover {
+            background-color: #444;
+        }
+
+        .checkbox {
+            margin-top: 10px;
+        }
+
+        .weekend-button {
+            display: block;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Schedule</h1>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Task</th>
+                    <th>Check</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Weekdays Schedule -->
+                <tr>
+                    <td>5:00 AM - 6:30 AM</td>
+                    <td>Cybersecurity (Tech Bundle Course by Ansh Bhawani)</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>6:30 AM - 7:30 AM</td>
+                    <td>Breakfast and Prep for College</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>9:00 AM - 5:00 PM</td>
+                    <td>College</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>5:00 PM - 6:00 PM</td>
+                    <td>GYM</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>6:00 PM - 6:30 PM</td>
+                    <td>REST</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>6:30 PM - 7:30 PM</td>
+                    <td>NETWORKING - 1</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>7:30 PM - 8:30 PM</td>
+                    <td>Dinner Break</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>8:30 PM - 10:00 PM</td>
+                    <td>Java (Complete Java and DSA Placement Course)</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>10:00 PM - 10:30 PM</td>
+                    <td>Java Coding Exercises</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>10:30 PM - 11:00 PM</td>
+                    <td>Data Structures and Algorithms (DSA) - Problems</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>11:00 PM</td>
+                    <td>Write In A Book What You Have Learned Today</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="index2.html" class="weekend-button" target="_blank" >View Weekend Schedule</a>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!-- index1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Schedule</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+            position: relative;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #555;
+        }
+
+        th {
+            background-color: #555;
+        }
+
+        tr:hover {
+            background-color: #444;
+        }
+
+        .checkbox {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Weekend Schedule</h1>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Task</th>
+                    <th>Check</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Weekends Schedule -->
+                <tr>
+                    <td>9:30 AM - 12:00 PM</td>
+                    <td>Cybersecurity (Tech Bundle Course by Ansh Bhawani)</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>12:00 PM - 2:00 PM</td>
+                    <td>Lunch and Rest</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 4:00 PM</td>
+                    <td>Java (Complete Java and DSA Placement Course)</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>4:00 PM - 4:30 PM</td>
+                    <td>REST AND BREAK</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>4:30 PM - 5:00 PM</td>
+                    <td>Java Practice and Coding Exercises</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>5:00 PM - 6:30 PM</td>
+                    <td>DSA Problem Solving</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>6:30 PM - 7:00 PM</td>
+                    <td>Break</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>7:00 PM - 8:30 PM</td>
+                    <td>Cybersecurity Practical Exercises / Read About Networking</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>8:30 PM - 9:30 PM</td>
+                    <td>Review and Revision Write In One Book What U Studied In That Day</td>
+                    <td><input type="checkbox" class="checkbox"></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+    </main>
+
+</body>
+</html>
